@@ -115,6 +115,7 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    font-family: var(--font-geist-sans);
   }
 
   body {
@@ -131,5 +132,13 @@
   .fill {
     flex-basis: 0;
     flex-grow: 1;
+  }
+
+  h1 {
+    @apply text-7xl font-bold;
+  }
+
+  p {
+    @apply text-lg;
   }
 }
